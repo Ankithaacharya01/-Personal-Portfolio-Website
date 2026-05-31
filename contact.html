@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Ankitha Acharya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="satellite-bg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="satellite-bg"></div>
+
+    <header>
+        <nav class="glass">
+            <div class="logo">AA</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="qualification.html">Qualification</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Ankitha Acharya Resume.pdf" class="btn outline resume-btn" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Section -->
+        <section id="contact" class="contact" style="display: block;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. Contact</span>
+                    <h2 class="reveal active">Let's connect.</h2>
+                </div>
+                <div class="contact-wrapper reveal active">
+                    <div class="contact-info">
+                        <p>Have a project in mind or just want to say hi? Feel free to reach out.</p>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ankithaacharya46@gmail.com" target="_blank" class="contact-email">ankithaacharya46@gmail.com</a>
+                        <div class="social-links">
+                            <a href="https://github.com/Ankithaacharya01" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container glass">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What are we talking about?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn" id="submit-btn" style="width: 100%;">
+                                Send Message
+                            </button>
+                        </form>
+                        <div id="form-success" style="display: none; text-align: center; padding: 2rem;">
+                            <i class="fas fa-check-circle" style="font-size: 3rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for reaching out. I'll get back to you soon.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ankitha Acharya. Designed & Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
